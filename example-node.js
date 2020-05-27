@@ -8,7 +8,6 @@ app.get('/', (request, response) => {
             response.send(`
             <http>
              <head><title>Oh Snap</title></head>
-
               <body>
                 <h1> OH SNAP!</h1>
                 <p style="font-size=: 24px, color: red;">
@@ -16,9 +15,9 @@ app.get('/', (request, response) => {
                 </p>
               </body>
             </http>
-            `);
-    });    
-  });
+        `);
+        });    
+    });
 });
 
 app.listen(process.env.PORT || 3000);
